@@ -1,0 +1,33 @@
+{
+  "name": "pdf-service",
+  "version": "0.0.1",
+  "description": "Stateless Pdf Service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo NEED TO ADD TESTS!!",
+    "start": "pm2 start app.js --watch --name=soxhub-pdf",
+    "stop": "pm2 delete soxhub-pdf"
+  },
+  "keywords": [
+    "Pdf",
+    "Headless"
+  ],
+  "author": "Walt Zimmerman",
+  "license": "ISC",
+  "dependencies": {
+    "aws-s3-form": "^0.3.5",
+    "aws-sdk": "^2.108.0",
+    "bluebird": "^3.5.0",
+    "eslint": "^4.5.0",
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-logger": "^3.0.1",
+    "koa-router": "^7.2.1",
+    "mime": "^1.4.0",
+    "mkpath": "^1.0.0",
+    "moment": "^2.18.1",
+    "pm2": "^2.6.1",
+    "puppeteer": "^0.10.1",
+    "uuid": "^3.1.0"
+  }
+}
