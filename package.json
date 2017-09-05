@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo NEED TO ADD TESTS!!",
-    "start": "pm2 start app.js --watch --name=soxhub-pdf",
+    "start": "node app.js",
+    "dev": "pm2 start app.js --watch --name=soxhub-pdf",
     "stop": "pm2 delete soxhub-pdf"
   },
   "keywords": [
